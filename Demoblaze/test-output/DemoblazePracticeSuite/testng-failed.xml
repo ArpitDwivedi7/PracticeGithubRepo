@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DemoblazePracticeSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.demoblaze.util.ListenerSetup"/>
+    <listener class-name="com.demoblaze.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="DemoblazePracticeTest(failed)">
+    <classes>
+      <class name="com.demoblaze.TestLayer.LoginFunctionality">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="verifyUserLoginOnHomePage"/>
+        </methods>
+      </class> <!-- com.demoblaze.TestLayer.LoginFunctionality -->
+    </classes>
+  </test> <!-- DemoblazePracticeTest(failed) -->
+</suite> <!-- Failed suite [DemoblazePracticeSuite] -->

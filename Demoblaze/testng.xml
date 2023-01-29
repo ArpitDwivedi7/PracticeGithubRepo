@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DemoblazePracticeSuite">
+<listeners>
+    <listener class-name="com.demoblaze.util.ListenerSetup" />
+    <listener class-name="com.demoblaze.util.ExtentReporterNG" />
+  </listeners>
+
+  <test thread-count="5" name="DemoblazePracticeTest">
+    <classes>
+      <class name="com.demoblaze.TestLayer.BuyPhones"/>
+      <class name="com.demoblaze.TestLayer.LoginFunctionality"/>
+    </classes>
+  </test> <!-- DemoblazePracticeTest -->
+</suite> <!-- DemoblazePracticeSuite -->

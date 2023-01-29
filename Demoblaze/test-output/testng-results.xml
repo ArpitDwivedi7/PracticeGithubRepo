@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-29T15:46:47 IST" name="Default suite" finished-at="2023-01-29T15:46:58 IST" duration-ms="11966">
+    <groups>
+    </groups>
+    <test started-at="2023-01-29T15:46:47 IST" name="Default test" finished-at="2023-01-29T15:46:58 IST" duration-ms="11966">
+      <class name="com.demoblaze.TestLayer.LoginFunctionality">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.demoblaze.TestLayer.LoginFunctionality@323b36e0]" started-at="2023-01-29T15:46:47 IST" name="launchBrowser" finished-at="2023-01-29T15:46:52 IST" duration-ms="5800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="verifyUserLoginOnHomePage()[pri:0, instance:com.demoblaze.TestLayer.LoginFunctionality@323b36e0]" started-at="2023-01-29T15:46:52 IST" name="verifyUserLoginOnHomePage" finished-at="2023-01-29T15:46:58 IST" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserLoginOnHomePage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.demoblaze.TestLayer.LoginFunctionality@323b36e0]" started-at="2023-01-29T15:46:58 IST" name="closeBrowser" finished-at="2023-01-29T15:46:58 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.demoblaze.TestLayer.LoginFunctionality -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
